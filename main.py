@@ -5,7 +5,7 @@ import os
 from logging import FileHandler
 
 from dotenv import load_dotenv
-from PIL import Image
+# from PIL import Image
 
 load_dotenv()
 print(os.getenv("OPENAI_API_KEY"))
@@ -17,11 +17,11 @@ def show_graph(graph):
     print(graph.get_graph().draw_mermaid())
     exit(0)
 
-    image = graph.get_graph().draw_mermaid_png()
-    image = Image.open(io.BytesIO(image))
+    # image = graph.get_graph().draw_mermaid_png()
+    # image = Image.open(io.BytesIO(image))
 
-    image.save("graph.png", "PNG")
-    exit(0)
+    # image.save("graph.png", "PNG")
+    # exit(0)
 
 
 if __name__ == "__main__":

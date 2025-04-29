@@ -1,0 +1,8 @@
+langchain==0.3.24
+langchain-openai==0.2.3
+langgraph==0.3.33
+rapidfuzz==3.10.0
+sql_metadata==2.14.0
+sqlglot==25.32.1
+transformers==4.45.2
+vllm==0.4.3
